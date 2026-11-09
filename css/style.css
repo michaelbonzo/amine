@@ -446,3 +446,11 @@ footer li a:hover{color:var(--gold-2)}
 .page-hero + .strip{margin-top:-70px}
 a.svc{display:block}
 .zmap .zpin .lbl{font-size:10px}
+
+/* Logo */
+.topbar{padding:20px 0 16px}
+.brand{display:block;line-height:0}
+.brand img{height:84px;width:auto;filter:drop-shadow(0 4px 14px rgba(0,0,0,.35));transition:transform .4s var(--ease)}
+.brand:hover img{transform:scale(1.04)}
+.brand-foot img{height:96px;filter:none}
+@media (max-width:980px){.brand img{height:58px}.brand-foot img{height:84px}}
